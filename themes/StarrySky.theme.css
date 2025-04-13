@@ -24,7 +24,8 @@
 /* Visual Refresh Fixes */
 @import url("https://raw.githubusercontent.com/KillaMeep/vencord-themes/refs/heads/main/patches/refresh-patch.css");
 
-
+/* Removal of bad bar (has been a bad boy) */
+@import url("https://raw.githubusercontent.com/KillaMeep/vencord-themes/refs/heads/main/patches/remove-shitty-bar.css");
 
 
 
