@@ -20,6 +20,9 @@
 /* Visual Refresh Fixes */
 @import url("https://raw.githubusercontent.com/KillaMeep/vencord-themes/refs/heads/main/patches/refresh-patch.css");
 
+/* Removal of bad bar (has been a bad boy) */
+@import url("https://raw.githubusercontent.com/KillaMeep/vencord-themes/refs/heads/main/patches/remove-shitty-bar.css");
+
 :root {
   /* Background image variables */
   --background-image: url('https://github.com/KillaMeep/vencord-themes/blob/main/media/Ethereal/Background.jpeg?raw=true'); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
