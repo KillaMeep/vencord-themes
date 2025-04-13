@@ -14,14 +14,13 @@
 /* BlackBox tags */
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
 
-/* Old Windows titlebar - remove this @import if you wish to use default titlebar */
-@import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css");
+/* Removal of bad bar (has been a bad boy) */
+@import url("https://raw.githubusercontent.com/KillaMeep/vencord-themes/refs/heads/main/patches/remove-shitty-bar.css");
 
 /* Visual Refresh Fixes */
 @import url("https://raw.githubusercontent.com/KillaMeep/vencord-themes/refs/heads/main/patches/refresh-patch.css");
 
-/* Removal of bad bar (has been a bad boy) */
-@import url("https://raw.githubusercontent.com/KillaMeep/vencord-themes/refs/heads/main/patches/remove-shitty-bar.css");
+
 
 :root {
   /* Background image variables */
@@ -42,11 +41,12 @@
   --home-button-position: center; /* Position of home button image | DEAFULT: center */
 
   /* Brightness variables */
-  --serverlist-brightness: 0.8; /* Brightness for serverlist | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
-  --left-brightness: 0.8; /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+  --serverlist-brightness: 0; /* Brightness for serverlist | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+  --left-brightness: 0.5; /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
   --middle-brightness: 0.6; /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
   --right-brightness: 0; /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
   --popout-modal-brightness: 0.75; /* Brightness for popouts and modals | 0 - 1 (decimals allowed) | DEFAULT: 0.75 */
+  --top-brightness: 0.5; /* Brightness for the window title bar | 0 - 1 (decimals allowed) */
 
   /* Gradient variables */
   --gradient-primary: 103,58,183; /* DEFAULT: 103,58,183 */
