@@ -1,0 +1,13 @@
+#app-mount .chatContent_f75fb0 {
+  background: linear-gradient(rgba(0, 0, 0, 0.0), transparent);
+}
+
+#app-mount .channelTextArea_f75fb0 { margin-bottom: var(--custom-chat-input-margin-bottom); background-color: rgba(0, 0, 0, 0.2) }
+
+#app-mount .themedBackground__74017 { background: linear-gradient(rgba(0, 0, 0, 0.0), transparent); }
+
+#app-mount .content__908e2 {
+  border: unset;
+  border-radius: unset;
+  background: transparent !important;
+}
