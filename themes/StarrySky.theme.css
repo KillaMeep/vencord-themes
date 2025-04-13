@@ -21,7 +21,8 @@
 
 @import url("https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css");
 
-
+/* Visual Refresh Fixes */
+@import url("https://raw.githubusercontent.com/KillaMeep/vencord-themes/refs/heads/main/patches/refresh-patch.css");
 
 
 
