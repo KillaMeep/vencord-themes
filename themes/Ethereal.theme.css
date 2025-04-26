@@ -9,7 +9,8 @@
  * @website themes.killameep.com
 */
 
-@import url("https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css");
+/* Fix broken links */
+@import url("https://themes.killameep.com/src/FrostedGlass");
 
 /* BlackBox tags */
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
